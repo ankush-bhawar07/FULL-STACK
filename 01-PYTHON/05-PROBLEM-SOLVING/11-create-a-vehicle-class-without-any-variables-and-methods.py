@@ -1,0 +1,2 @@
+class Vihicle:
+    pass
