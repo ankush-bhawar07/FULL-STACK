@@ -1,0 +1,10 @@
+CREATE DATABASE coders;
+USE coders;
+
+CREATE TABLE coder(
+    cid INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(20) NOT NULL UNIQUE,
+    lang VARCHAR(20) DEFAULT 'undecided'
+);
+
+DESCRIBE coder;
